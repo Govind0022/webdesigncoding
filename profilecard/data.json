@@ -1,0 +1,20 @@
+{
+"profile":{
+		"name":"govind",
+		"email":"govind@gmail.com",
+		"mobile":9014117507,
+		"address":"visakhapatnam",
+		"com":"hp",
+		"role":"Multi Skill Trainer"
+
+	},
+	"profile2":{
+		"name":"gopi",
+		"email":"kumar@gmail.com",
+		"mobile":9014117507,
+		"address":"guntur",
+		"com":"hp",
+		"role":"Skill Trainer"
+
+	}
+}
