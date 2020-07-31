@@ -1,0 +1,29 @@
+ul{
+	list-style-type: none
+}
+ul li{
+	float: left;
+	width: 150px;
+	height: 150px;
+background-color: yellow;
+font-size: 35px;
+text-align: center;
+line-height: 50px;
+}
+ul li a{
+	text-decoration: none;
+	color: blue;
+}
+ul li a:hover{
+background-color: black;
+color:white;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+ul li ul li{
+	opacity: 45;
+}
