@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Change</title>
+<script type="text/javascript">
+	function test() {
+	
+	  if (document.getElementById('name').value=="") {
+	  	alert("Please Fill The Name Filed")
+
+	  }
+	  if (document.getElementById('email').value=="") {
+	  	alert("Please Fill The Email Filed")
+	  	
+	  }
+	  if (document.getElementById('pass').value=="") {
+	  	alert("Please Fill The Password Filed")
+	  	
+	  }
+	    if (document.getElementById('dob').value=="") {
+	  	alert("Please Fill The dob Filed")
+	  	
+	  }
+	}
+	
+
+</script>
+
+<body>
+<form>
+	<label>user name</label>
+	<input type="text" name="name" id="name"><br>
+	<label>e mail</label>
+	<input type="email" name="email" id="email"><br>
+	<label>password</label>
+	<input type="password" name="password" id="pass"><br>
+	<label>dob</label>
+	day:<select>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	</select>
+	mon:<select>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	</select>
+	year:<select>
+		<option>456</option>
+		<option>2001</option>
+		<option>2003</option>
+		<option>2004</option>
+	</select>
+	<input type="dob" name="dob" id="dob"><br>
+		<button type="submit" onclick="">submit</button>
+</form>
+
+</body>
+</html>

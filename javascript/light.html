@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>turn on& off</title>
+	
+</head>
+<body id="root">
+<img src="img1.gif" id='im'>
+<button onclick="document.getelementbyid('im').src='img/on.gif'"></button>
+<button onclick="document.getelementbyid('im').src='img/off.gif'"></button>
+<p id="crr"></p>
+<script type="text/javascript">
+		var car= {
+			com:"tata",
+			model:"shift",
+			cost:"3 lac"
+		}
+		document.getelementbyid('crr').innethtml=car.model;
+		document.getelementbyid('cost').innethtml=car.cost;
+		document.getelementbyid('com').innethtml=car.com;
+		for(i in car)
+		{
+			document.write(car[i])
+		}
+		var sai=document.getelementbyid('root')
+		var h1=document.createelement('h1')
+		h1.textcontent="sai,mon,bhanu,govind";
+		h1.setattribute("style","color:blue")
+		sai.appendchild(h1)
+		function change()  {
+			var sai=document.textnode('sdc training')
+			var doing=document.getelementbyid('web').childnode[3];
+			doing.replace(sai,doing.childnodes[3]);
+		}
+	</script>
+	<ul>
+		<li>sai</li>
+		<li>mon</li>
+		<li>bhanu</li>
+		<li>govind</li>
+	</ul>
+	<button onauxclick="change()">change list</button>
+</body>
+
+</html>
