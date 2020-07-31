@@ -1,0 +1,30 @@
+{
+	"web":[{
+		"img":"1.jpg",
+		"brand":"vivo",
+		"model":"x50",
+		"price":"10000",
+		"button":"Click ME"
+	},
+	{
+		"img":"2.jpg",
+		"brand":"samsung",
+		"model":"x50",
+		"price":"210000",
+		"button":"Click ME"
+	},
+	{
+		"img":"3.jpg",
+		"brand":"mi",
+		"model":"mi10",
+		"price":"25000",
+		"button":"Click ME"
+	},
+	{
+		"img":"4.jpg",
+		"brand":"honor",
+		"model":"9n",
+		"price":"10000",
+		"button":"Click ME"
+	}]
+}
